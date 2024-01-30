@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registration_frame</class>
+ <widget class="QFrame" name="registration_frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>921</width>
+    <height>721</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>921</width>
+    <height>721</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#registration_frame{
+	background-color: rgb(234, 196, 163);
+}</string>
+  </property>
+  <widget class="QTabWidget" name="register_folder">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>821</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Reem Kufi</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">selection-background-color: rgb(234, 196, 163);
+border-color: rgb(234, 196, 163);</string>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Triangular</enum>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideNone</enum>
+   </property>
+   <property name="usesScrollButtons">
+    <bool>false</bool>
+   </property>
+   <property name="documentMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="homeowner">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 216, 195);</string>
+    </property>
+    <attribute name="title">
+     <string>HOMEOWNER</string>
+    </attribute>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Register as a Homeowner!</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>981</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>First Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>140</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Last Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>55</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Email: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>190</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Block #:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>240</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Contact #:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>240</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Lot #:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Password:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>290</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Confirm Password:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>480</y>
+       <width>341</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 8pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>By clicking submit, you agree to TAPSILOG SYSTEM v2.0's</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>500</y>
+       <width>371</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 8pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Terms of Service and accept that you've read our Privacy Policy.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submit_button_hm">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>480</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #eac4a3;
+   color: #fffff;
+font: 10pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #CE8865;
+   color: #000000;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #eac4a3;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #eac4a3;
+   color: #000000;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>SUBMIT</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_password_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>280</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_cpassword_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>280</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_lot_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>230</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_block_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>180</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_lname_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_contact_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>230</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_email_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hm_fname_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>130</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <zorder>label_14</zorder>
+    <zorder>line</zorder>
+    <zorder>label_18</zorder>
+    <zorder>label_19</zorder>
+    <zorder>label_13</zorder>
+    <zorder>label_15</zorder>
+    <zorder>label_12</zorder>
+    <zorder>label_11</zorder>
+    <zorder>label_21</zorder>
+    <zorder>label_16</zorder>
+    <zorder>label_20</zorder>
+    <zorder>label_17</zorder>
+    <zorder>submit_button_hm</zorder>
+    <zorder>hm_password_entry</zorder>
+    <zorder>hm_cpassword_entry</zorder>
+    <zorder>hm_lot_entry</zorder>
+    <zorder>hm_block_entry</zorder>
+    <zorder>hm_lname_entry</zorder>
+    <zorder>hm_contact_entry</zorder>
+    <zorder>hm_email_entry</zorder>
+    <zorder>hm_fname_entry</zorder>
+   </widget>
+   <widget class="QWidget" name="visitor">
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(213, 145, 110);
+background-color: #d5916e
+</string>
+    </property>
+    <attribute name="title">
+     <string>VISITOR</string>
+    </attribute>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>991</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>10</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string> Register a Visitor! Fill with the visitor's information. </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vs_fname_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>130</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>First Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>140</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Last Name:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vs_lname_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>55</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Email: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>240</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Affiliation:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>With Vehicle:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>190</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Contact #:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>290</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Plate No.#:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vs_email_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vs_contact_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>180</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vs_affliation_entry">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>230</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="vs_vyes_button">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>290</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="vs_vyes_button_2">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>290</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="vs_plate_entry">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>280</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>480</y>
+       <width>341</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 8pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>By clicking submit, you agree to TAPSILOG SYSTEM v2.0's</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>500</y>
+       <width>371</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 8pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Terms of Service and accept that you've read our Privacy Policy.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submit_button_vs">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>480</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #eac4a3;
+   color: #fffff;
+font: 10pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #CE8865;
+   color: #000000;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #eac4a3;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #eac4a3;
+   color: #000000;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>SUBMIT</string>
+     </property>
+    </widget>
+    <zorder>label_10</zorder>
+    <zorder>line_5</zorder>
+    <zorder>label</zorder>
+    <zorder>vs_fname_entry</zorder>
+    <zorder>label_22</zorder>
+    <zorder>label_6</zorder>
+    <zorder>vs_lname_entry</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_7</zorder>
+    <zorder>label_9</zorder>
+    <zorder>vs_email_entry</zorder>
+    <zorder>vs_contact_entry</zorder>
+    <zorder>vs_affliation_entry</zorder>
+    <zorder>vs_vyes_button</zorder>
+    <zorder>vs_vyes_button_2</zorder>
+    <zorder>vs_plate_entry</zorder>
+    <zorder>label_8</zorder>
+    <zorder>submit_button_vs</zorder>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="history_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 27pt &quot;Reem Kufi&quot;;
+background-color: rgb(234, 196, 163);</string>
+   </property>
+   <property name="text">
+    <string>REGISTER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="privacy_button">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>60</y>
+     <width>81</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+   border-radius: 15px;
+	font: 12pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:enabled {
+   background-color: #EAC4A3;
+   color: black;
+}
+
+QPushButton:pressed {
+   background-color: #EAC4A3;
+   color: #black;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #EAC4A3;
+   color: white;
+}
+
+QPushButton:disabled {
+   background-color: #EAC4A3;
+   color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Privacy</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/LOGS_panel.ui-20231123T155216Z-001/print (1).png</normaloff>../../../Downloads/LOGS_panel.ui-20231123T155216Z-001/print (1).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="terms_button">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>60</y>
+     <width>71</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+   border-radius: 15px;
+	font: 12pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:enabled {
+   background-color: #EAC4A3;
+   color: black;
+}
+
+QPushButton:pressed {
+   background-color: #EAC4A3;
+   color: #black;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #EAC4A3;
+   color: white;
+}
+
+QPushButton:disabled {
+   background-color: #EAC4A3;
+   color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Terms</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/LOGS_panel.ui-20231123T155216Z-001/print (1).png</normaloff>../../../Downloads/LOGS_panel.ui-20231123T155216Z-001/print (1).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pri_button_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>60</y>
+     <width>81</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+   border-radius: 15px;
+	font: 12pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:enabled {
+   background-color: #EAC4A3;
+   color: black;
+}
+
+QPushButton:pressed {
+   background-color: #EAC4A3;
+   color: #black;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #EAC4A3;
+   color: white;
+}
+
+QPushButton:disabled {
+   background-color: #EAC4A3;
+   color: black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/LOGS_panel.ui-20231123T155216Z-001/print (1).png</normaloff>../../../Downloads/LOGS_panel.ui-20231123T155216Z-001/print (1).png</iconset>
+   </property>
+  </widget>
+  <zorder>history_label</zorder>
+  <zorder>privacy_button</zorder>
+  <zorder>terms_button</zorder>
+  <zorder>register_folder</zorder>
+  <zorder>pri_button_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

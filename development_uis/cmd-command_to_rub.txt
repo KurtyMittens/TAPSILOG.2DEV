@@ -1,0 +1,18 @@
+*****UI TO PY******
+python -m PyQt5.uic.pyuic -x [FILENAME].ui -o [FILENAME].py
+
+******qrc to py*****
+pyrcc5 resources.qrc -o resources.py
+
+
+**NOTE: change directory to cd  *****
+C:\Users\gamin\PycharmProjects\TAPSILOG.v2
+
+
+**For FORM UI's**
+# Set to frameless windows
+        Form.setWindowFlags(QtCore.Qt.FramelessWindowHint)
+        Form.setAttribute(QtCore.Qt.WA_TranslucentBackground)
+
+**BUTTON CONNECT**
+[button].clicked.connect(self.login_pressed)

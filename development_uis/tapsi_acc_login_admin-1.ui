@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1275</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1275</width>
+    <height>820</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TAPSILog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../Downloads/tapsi_acc_login_admin-1.ui-20231123T060703Z-001/logo-removebg-preview_smol.png</normaloff>../../../../Downloads/tapsi_acc_login_admin-1.ui-20231123T060703Z-001/logo-removebg-preview_smol.png</iconset>
+  </property>
+  <property name="toolTipDuration">
+   <number>-2</number>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(213, 145, 110);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="HOME_changeable_panel" native="true">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>0</y>
+      <width>921</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 196, 163);</string>
+    </property>
+    <widget class="QGroupBox" name="GREETING_MSG">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>641</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 15pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="title">
+      <string>Welcome Admin!</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <widget class="QLabel" name="TAPSI_LABEL">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>30</y>
+        <width>461</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25pt &quot;Reem Kufi&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>T.A.P.S.I.Log System V.2.0</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTableView" name="RECENT_LOGS">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>360</y>
+       <width>511</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="TOTAL_REG_HO">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>190</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;OCR A Extended&quot;;
+</string>
+     </property>
+     <property name="title">
+      <string>Total Registered Homeowners</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <widget class="QLabel" name="total_reg_ho_label">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>30</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>sample #</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="QR_SCANNER_BTN">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>190</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>QR Scanner</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 50px;
+}
+
+QPushButton:enabled {
+   background-color: #eac4a3;
+}
+
+QPushButton:pressed {
+   background-color: #CE8865;
+
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+	border-radius: 50px;
+}
+
+QPushButton:disabled {
+   background-color: #eac4a3;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/qr-scan (1).png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/qr-scan (1).png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="TOTAL_REG_VIS">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>280</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="title">
+      <string>Total Registered Visitors</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <widget class="QLabel" name="total_reg_vis_label">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>30</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>sample #</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="HUCK_BTN">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>190</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>HUCK AI Scanner</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 50px;
+}
+
+QPushButton:enabled {
+   background-color: #eac4a3;
+}
+
+QPushButton:pressed {
+   background-color: #CE8865;
+
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+	border-radius: 50px;
+}
+
+QPushButton:disabled {
+   background-color: #eac4a3;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/huck.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/huck.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="QR_SCANNER_BTN_2">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>190</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>QR Generator</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-radius: 50px;
+}
+
+QPushButton:enabled {
+   background-color: #eac4a3;
+}
+
+QPushButton:pressed {
+   background-color: #CE8865;
+
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+	border-radius: 50px;
+}
+
+QPushButton:disabled {
+   background-color: #eac4a3;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/qr2.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/qr2.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="loglabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>320</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Reem Kufi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Recent Log History</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>360</y>
+       <width>331</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="toolTipDuration">
+      <number>-1</number>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(236, 160, 122);
+border-radius: 20px;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="TAPSI_NAME">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(213, 145, 110);
+
+font: 9pt &quot;OCR A Extended&quot;;
+
+color: rgb(255, 255, 255);
+ align: &quot;center&quot;;</string>
+    </property>
+    <property name="text">
+     <string>  Total Activity Processed through &lt;br /&gt; a Strictly Implemented Log System</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TAPSI_LOGO">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>161</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/pics/assets/logo.png);
+background-color: rgb(234, 196, 163);
+border-radius: 40px;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/OneDrive/Desktop/BDSM/logo-removebg-preview_smol.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ENTER_BROWSER_BTN">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+   border-radius: 15px;
+}
+
+QPushButton:enabled {
+   background-color: #D5916E;
+   color: white;
+}
+
+QPushButton:pressed {
+   background-color: #CE8865;
+   color: #ffffff;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #EAC4A3;
+   color: #008080;
+}
+
+QPushButton:disabled {
+   background-color: #D5916E;
+   color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/search (2).png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/search (2).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>330</y>
+      <width>241</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="HOME_BTN">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #d5916e;
+   color: #fffff;
+font: 13pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #d5916e;
+   color: #ffaa7f;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #d5916e;
+   color: #000000;
+}</string>
+       </property>
+       <property name="text">
+        <string>   HOME</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/home.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/home.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="UPDATE_BTN">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #d5916e;
+   color: #fffff;
+font: 13pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #d5916e;
+   color: #ffaa7f;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #d5916e;
+   color: #000000;
+}</string>
+       </property>
+       <property name="text">
+        <string>   UPDATE</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/refresh.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/refresh.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="LOGS_BTN">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #d5916e;
+   color: #fffff;
+font: 13pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #d5916e;
+   color: #ffaa7f;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #d5916e;
+   color: #000000;
+}</string>
+       </property>
+       <property name="text">
+        <string>   LOGS</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/book-open-cover.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/book-open-cover.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="REG_BTN">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #d5916e;
+   color: #fffff;
+font: 13pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #d5916e;
+   color: #ffaa7f;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #d5916e;
+   color: #000000;
+}</string>
+       </property>
+       <property name="text">
+        <string>   REGISTER</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/user-add.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/user-add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="GEN_QR_BTN">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #d5916e;
+   color: #fffff;
+font: 13pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #d5916e;
+   color: #ffaa7f;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #d5916e;
+   color: #000000;
+}</string>
+       </property>
+       <property name="text">
+        <string>   SETTINGS</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/settings.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/settings.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="EXIT_BTN">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 15px;
+}
+QPushButton:enabled {
+   background-color: #d5916e;
+   color: #fffff;
+font: 13pt &quot;Reem Kufi&quot;;
+}
+
+QPushButton:pressed {
+   background-color: #d5916e;
+   color: #ffaa7f;
+}
+
+QPushButton:hover:!pressed {
+   background-color: #d5916e;
+   color: #ffffff;
+	border-radius: 23px;
+border-radius: 15px;
+}
+
+QPushButton:disabled {
+   background-color: #d5916e;
+   color: #000000;
+}</string>
+       </property>
+       <property name="text">
+        <string>   QUIT</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/exit.png</normaloff>../../../../Downloads/OneDrive/Desktop/BDSM/exit.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTextEdit" name="BROWSER">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px;
+font: 9pt &quot;Gill Sans MT&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="documentTitle">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>   Search</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

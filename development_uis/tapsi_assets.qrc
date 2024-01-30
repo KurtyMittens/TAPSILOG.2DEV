@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="pics">
+    <file>../assets/HUCK__1_-removebg-preview.png</file>
+    <file>../assets/huck (2).png</file>
+    <file>../assets/user-add.png</file>
+    <file>../assets/qr.png</file>
+    <file>../assets/qr-scan (1).png</file>
+    <file>../assets/refresh.png</file>
+    <file>../assets/search (2).png</file>
+    <file>../assets/exit.png</file>
+    <file>../assets/book-open-cover.png</file>
+    <file>../assets/home.png</file>
+    <file>../assets/menu_bar.png</file>
+    <file>../assets/Add_a_subheading-removebg-preview.png</file>
+    <file>../assets/Add_a_subheading-removebg-preview-removebg-preview.png</file>
+    <file>../assets/Black_And_White_Modern_Vintage_Retro_Brand_Logo__2_-removebg-preview.png</file>
+    <file>../assets/logo.png</file>
+  </qresource>
+</RCC>
